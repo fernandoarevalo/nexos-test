@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Aceite De Oliva",
+            "description": "Aceite De Oliva Extra Virgen X 1000 Cm3"
+        },
+        {
+            "id": 2,
+            "name": "Arroz Blanco",
+            "description": "Arroz Blanco Bolsa X 5000 gr"
+        },
+        {
+            "id": 3,
+            "name": "Azucar Morena",
+            "description": "Azucar Morena 2.5 kg"
+        },
+        {
+            "id": 4,
+            "name": "Café",
+            "description": "Café Fuerte Tostado Y Molido X 600 gr"
+        },
+        {
+            "id": 5,
+            "name": "Leche Entera",
+            "description": "Leche Entera Sixpack En Bolsa X 1.1 Litros C.u"
+        },
+        {
+            "id": 6,
+            "name": "Aceite Girasol",
+            "description": "Aceite Girasol Gourmet Familia 3000 ml"
+        },
+        {
+            "id": 7,
+            "name": "Lenteja",
+            "description": "Lenteja X 1000 gr"
+        },
+        {
+            "id": 8,
+            "name": "Queso Blanco",
+            "description": "Queso Blanco X 500 Gr Empacado Al Vacio"
+        },
+        {
+            "id": 9,
+            "name": "Spaguetti",
+            "description": "Spaguetti P2 Ll3"
+        },
+        {
+            "id": 10,
+            "name": "Maiz Tierno",
+            "description": "Duo Pack Maiz Tierno x 248gr C U"
+        }
+    ]
+}
