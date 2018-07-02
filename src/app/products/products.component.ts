@@ -21,7 +21,7 @@ export class ProductsComponent implements OnInit {
   private _pages: number[] = [1]
 
   private _column: string = "id";
-  private _isDesc: boolean = false;
+  private _isDesc: boolean = true;
 
   /**
    * ProductsComponent constructor

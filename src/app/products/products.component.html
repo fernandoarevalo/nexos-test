@@ -13,17 +13,17 @@
       <tr>
         <th class="pointer" scope="col" (click)="sort('id')">
           #
-          <i class="fas" [ngClass]="{'fa-sort': _column != 'id', 'fa-sort-up': (_column == 'id' && !_isDesc), 'fa-sort-down': (column == 'id' && _isDesc) }"
+          <i class="fas" [ngClass]="{'fa-sort': _column != 'id', 'fa-sort-up': (_column == 'id' && !_isDesc), 'fa-sort-down': (_column == 'id' && _isDesc) }"
             aria-hidden="true"></i>
         </th>
         <th class="pointer" scope="col" (click)="sort('name')">
           Nombre
-          <i class="fas" [ngClass]="{'fa-sort': _column != 'name', 'fa-sort-up': (_column == 'name' && !_isDesc), 'fa-sort-down': (column == 'name' && _isDesc) }"
+          <i class="fas" [ngClass]="{'fa-sort': _column != 'name', 'fa-sort-up': (_column == 'name' && !_isDesc), 'fa-sort-down': (_column == 'name' && _isDesc) }"
             aria-hidden="true"></i>
         </th>
         <th class="pointer" scope="col" (click)="sort('description')">
           Descripción
-          <i class="fas" [ngClass]="{'fa-sort': _column != 'description', 'fa-sort-up': (_column == 'description' && !_isDesc), 'fa-sort-down': (column == 'description' && _isDesc) }"
+          <i class="fas" [ngClass]="{'fa-sort': _column != 'description', 'fa-sort-up': (_column == 'description' && !_isDesc), 'fa-sort-down': (_column == 'description' && _isDesc) }"
             aria-hidden="true"></i>
         </th>
       </tr>
