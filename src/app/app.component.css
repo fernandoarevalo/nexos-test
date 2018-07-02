@@ -9,3 +9,16 @@ nav img {
 section {
     margin-top: 1rem;
 }
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #78909c;
+    color: white;
+}
