@@ -8,13 +8,15 @@ import { ProductsComponent } from './products/products.component';
 
 import { ProductService } from "./product.service";
 import { FilterPipe, SortPipe } from './products.pipe';
+import { PaginationComponent } from './pagination/pagination.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     FilterPipe,
-    SortPipe
+    SortPipe,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
